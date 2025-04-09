@@ -1,11 +1,11 @@
 nginx:
-  namespace: nginx
+  namespace: nginx1
   upstreamUrl: "my-upstream-url"
   upstreamPort: 8080
   replicas: 3  # More replicas for production
   image:
-    repository: nginx
-    tag: "1.19.10"
+    repository: vicky04/nginx
+    tag: v1
   service:
     type: LoadBalancer
     port: 80
