@@ -5,8 +5,8 @@ nginx:
   upstreamPort: 80
   replicas: 3
   image:
-    repository: nginx
-    tag: "1.19.10"
+    repository: vicky04/nginx
+    tag: v1
   service:
     type: NodePort
     port: 80
