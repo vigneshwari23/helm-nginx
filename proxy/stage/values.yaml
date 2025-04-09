@@ -1,11 +1,11 @@
 nginx:
-  namespace: nginx
+  namespace: nginx1
   upstreamUrl: "my-upstream-url"
   upstreamPort: 8082
   replicas: 2
   image:
-    repository: nginx
-    tag: "1.19.10"
+    repository: vicky04/nginx
+    tag: v1
   service:
     type: ClusterIP
     port: 80
