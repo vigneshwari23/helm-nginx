@@ -11,7 +11,7 @@ db:
   replicas: 2
   configmap:
     ## KEY: "value"
-    MYSQL_DATABASE: C0927938
+    MYSQL_DATABASE: C0927918
     MYSQL_USER: 3324_user
     APP_ENV: dev
   containerPorts:
