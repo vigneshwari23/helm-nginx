@@ -1,4 +1,5 @@
 nginx:
+  name: nginx-dep
   namespace: nginx1
   upstreamUrl: "my-upstream-url"
   upstreamPort: 8080
