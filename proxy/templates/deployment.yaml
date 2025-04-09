@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Values.nginx.name }}
+  name: nginx-deploy
   namespace: {{ .Values.nginx.namespace }}
 spec:
   replicas: {{ .Values.nginx.replicas }}
